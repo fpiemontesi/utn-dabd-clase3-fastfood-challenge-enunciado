@@ -23,9 +23,9 @@ Clase Pedido:
 ```
 {
     number: number; // Numero de pedido random de 1 a 1000
-    name: string;  // Nombre del cliente
-    description: string;  // Descripción del pedido
-    date: Date; // Fecha de creación del pedido
+    name: string;  // Nombre del cliente (minimo 10 caracteres)
+    description?: string;  // Descripción del pedido (máximo 500 caracteres)
+    date: Date; // Fecha de creación del pedido (no puede ser una fecha menor a la de hoy)
 }
 ```
 
